@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class OptionDialog {
     public static void main(String[] args) {
 
-        String[] arreglo = { "Monitores", "Teclados", "Pantallas", "Bocinas" };
+        String[] arreglo = { "Monitores", "Teclados", "Pantallas", "Bocinas", "Auriculares"};
 
         int opcion = JOptionPane.showOptionDialog(null, "Elige una palabra...", "Escoge una opción", 0,
                 JOptionPane.QUESTION_MESSAGE, null, arreglo, "Teclados");
